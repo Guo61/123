@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/3vQbADjh", true))()
-local window = library:new("Cat脚本")
+local window = library:new("Cat Hub")
     local creds = window:Tab("关于", "6031097229")
     local bin = creds:section("信息", true)
     bin:Label("ByCcat")    
@@ -9,7 +9,7 @@ local window = library:new("Cat脚本")
     local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
-    Title = "你的通知的标题",
+    Title = "Cat Hub",
     Text = "欢迎使用Cat Hub",
     Icon = "77439056754827",
     Duration = 8
@@ -62,11 +62,6 @@ end)
 credits:Button("透视", function()
   local Players = game:GetService("Players"):GetChildren() local RunService = game:GetService("RunService") local highlight = Instance.new("Highlight") highlight.Name = "Highlight" for i, v in pairs(Players) do repeat wait() until v.Character if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then local highlightClone = highlight:Clone() highlightClone.Adornee = v.Character highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart") highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop highlightClone.Name = "Highlight" end end game.Players.PlayerAdded:Connect(function(player) repeat wait() until player.Character if not player.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then local highlightClone = highlight:Clone() highlightClone.Adornee = player.Character highlightClone.Parent = player.Character:FindFirstChild("HumanoidRootPart") highlightClone.Name = "Highlight" end end) game.Players.PlayerRemoving:Connect(function(playerRemoved) playerRemoved.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy() end) RunService.Heartbeat:Connect(function() for i, v in pairs(Players) do repeat wait() until v.Character if not v.Character:FindFirstChild("HumanoidRootPart"):FindFirstChild("Highlight") then local highlightClone = highlight:Clone() highlightClone.Adornee = v.Character highlightClone.Parent = v.Character:FindFirstChild("HumanoidRootPart") highlightClone.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop highlightClone.Name = "Highlight" task.wait() end end end)
 end)
-
-credits:Button("子追", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fcsdsss/games/refs/heads/main/Silent%20aim/1.1"))()
-end
-	end)
 
   local credits = creds:section("自瞄功能", true)
 
@@ -159,6 +154,8 @@ end)
 
 credits:Button("英文Doors",function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHunterSolo1/Scripts/main/Protected_2809220311826785.lua.txt", true))()
+ end)
+ 
 local credits = creds:section("生存99夜", true)
 
 credits:Button("英文99夜", function()
