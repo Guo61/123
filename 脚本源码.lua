@@ -166,11 +166,7 @@ credits:Button("英文99夜", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/yoursvexyyy/VEX-OP/refs/heads/main/99%20nights%20in%20the%20forest"))()
 end)
 
-credits:Button("老外最强99夜", function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/gHQGTNYH"))()
-end)
-
-ceedits:Button("科",function()
+credits:Button("科", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Guo61/Cat-/refs/heads/main/99%E5%A4%9C.lua"))()
 end)
 
