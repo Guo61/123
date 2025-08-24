@@ -170,7 +170,7 @@ credits:Button("老外最强99夜", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/gHQGTNYH"))()
 end)
 
-ceedits:Button("科,function"()
+ceedits:Button("科",function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Guo61/Cat-/refs/heads/main/99%E5%A4%9C.lua"))()
 end)
 
