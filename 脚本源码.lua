@@ -11,7 +11,7 @@ local window = library:new("Cat Hub")
 StarterGui:SetCore("SendNotification", {
     Title = "Cat Hub",
     Text = "欢迎使用Cat Hub",
-    Icon = "77439056754827",
+    Icon = "108453362719381",
     Duration = 8
 })
 local StarterGui = game:GetService("StarterGui")
@@ -19,7 +19,7 @@ local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Hub",
     Text = "加载完毕 ",
-    Icon = "77439056754827",
+    Icon = "108453362719381",
     Duration = 10
 })
 
