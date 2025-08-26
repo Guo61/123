@@ -107,7 +107,7 @@ end
                 Desc = "传送成功",
                 Time = 1
             })
-        end
+end
         
 local Extra = Window:Tab({Title = "力量传奇", Icon = "wrench"}) do
     Extra:Section({Title = "传送"})
